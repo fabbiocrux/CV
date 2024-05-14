@@ -1,0 +1,98 @@
+% LianTze Lim (liantze@gmail.com)
+% 16 September, 2016
+%
+\documentclass[a4paper,skipsamekey,11pt,french]{curve}
+\usepackage{settings}
+\usepackage{academicons}
+% Change the fonts if you want
+\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+  \setmainfont[SmallCapsFeatures={Letters=SmallCaps,LetterSpace=5},Numbers=OldStyle]{EB Garamond}
+  \setsansfont[Ligatures=TeX,BoldFont=Fira Sans Medium]{Fira Sans}
+  \setmonofont{Inconsolata}
+\else % If you're using pdfLaTeX or latex
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[tracking=smallcaps]{microtype}
+  \usepackage[bitstream-charter]{mathdesign}
+  \usepackage{ebgaramond}
+  \usepackage[type1]{cabin}
+  \usepackage[varqu,varl]{zi4}
+\fi
+\usepackage{csquotes}
+
+\addbibresource{own-bib.bib}
+
+%% Specify your last name and first name (as given in the .bib) to automatically bold your own name in the publications list. One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly for now...
+%\myname{Lim}{Lian\bibnamedelima Tze}
+ \myname{Cruz Sanchez}{Fabio}
+
+% Change the page margins if you want
+\geometry{left=1.5cm,right=1cm,top=1.5cm,bottom=1.5cm}
+
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+% \prefixmarker{$\diamond$}
+
+%% Photo is only shown if "fullonly" is included
+\includecomment{fullonly}
+% \excludecomment{fullonly}
+
+
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Fabio A. CRUZ SANCHEZ, Ph.D.}
+
+Franco-colombienne, 32 ans, Né le 06/05/1988 à Bogotá, Colombie
+
+  \makefield{\faEnvelopeO}{\texttt{fabbiocrux.ms@gmail.com}}
+  \makefield{\aiGoogleScholar}{\href{https://scholar.google.fr/citations?user=8Cuoaf4AAAAJ&hl=fr}{Google scholar}}
+
+  
+\makefield{\faGlobe}{\url{https://www.fabbiocrux.com}}
+\makefield{\faGithub}{\texttt{https://github.com/fabbiocrux}}
+
+  \makefield{\faLinkedinSquare}
+  {\url{https://www.linkedin.com/in/fabbiocrux/}}
+
+ 
+
+
+}
+
+\rightheader{~}
+\begin{fullonly}
+\photo[r]{Fabio-800x800}
+\photoscale{0.13}
+\end{fullonly}
+
+\title{Curriculum Vitae}
+
+
+\begin{document}
+\makeheaders[c]
+
+\makerubric{1-actuelle}
+
+\makerubric{2-education}
+
+\makerubric{3-employment}
+
+\input{4-publications}
+
+\makerubric{5-skills}
+\makerubric{6-projets}
+
+\makerubric{8-Recherche}
+\makerubric{9-Cours}
+\makerubric{10-Encadrement}
+%\makerubric{7-misc}
+
+
+%\makerubric{referee}
+%\input{referee-full}
+
+\end{document}

@@ -1,0 +1,87 @@
+\begin{rubric}{Activités Recherche}
+\subrubric{Master II Recherche Design Global – UL}
+
+\entry*[]
+\textbf{Proposition d'un protocol d'experimentation stantdard pour la fabrication additive open source.}
+
+Depuis les années 80s, le champ du prototypage rapide a évolué vers la notion de fabrication additive.
+Plusieurs auteurs reconnaissent la fabrication additive comme étant une technologie disruptive qui a le potentiel de transformer le contexte industrielle à une échelle globale.
+
+Cependant, une facteur preponderant est l'introduction de la notion open source dans le processus de development de la fabrication additive.
+Le terme open source a été utilisé dans le domaine informatique. 
+Un logiciel est considéré comme open source lorsqu’il est libre d’utilisation et que l’on peut apporter des modifications.
+Cela implique, entre autres,  une démocratisation de la technologie grâce au partage, la collaboration et la disponibilité de l'information.
+De là, une communauté globale d’utilisateurs (laboratoires de recherche, fablabs, makers..) s'emparent de cette technologie pour l'améliorer, la tester et experimenter de nouveaux usages. 
+Tant au niveau de la technicité des machines que dans les productions possibles et utilisations possibles.
+Cependant, la demultiplication de ces expérimentation font que l'établissement des standards minimal des performance et de comparison soient requis afin de valider ce processus de développement technologique.
+
+Ce travail s'est focalisé donc sur la proposition d'une modèle benchmarking afin d'évaluer et positionner la technologie d'impression 3D open source auprès de la communauté scientifique, et industrielle en tant qu’outil reproductible.
+Les points qui on été clarifiés dans un but de recherche:
+
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+    \item Caractérisation fonctionnelle sur la composition d'une imprimante 3D standard.
+    \item Proposition d'un modèle benchmmarking pour tester la reproductibilité de la machine. 
+    \item Evaluation de la qualité du précision géométrique avec une référentiel ISO standard.
+    À savoir, comparaison des de la performance de l'imprimante 3D representative de la communauté open source avec des outils traditionelles de fabrication. 
+
+    \item Proposition d'une méthodologie pour trouver de conditions opératoires basée sur une approche de plan d'expériences.
+
+\end{itemize}
+
+   
+Ces travaux ont été une premier pas vers la validation de cette technologie en tant qu'un outil comparable à des outils de prototypage commercial qui ont un coût plus importante.	
+
+\subrubric{Thèse de Doctorat en Génie des Systèmes Industriels – Université de Lorraine}
+
+
+\entry*[]
+
+\textbf{Proposition d'une approche méthodologique permettant d'évaluer les recyclages des polymères dans un contexte de fabrication additive open-source}
+
+Le développement durable est un élément essentiel dans lequel la fabrication additive peut jouer un rôle très important.
+Cette technologie permet d’avoir une utilisation efficiente de la matière première par rapport aux technologies traditionnelles du type d’enlèvement ou de déformation de matière.
+Le principe de déposition \textit{couche-par-couche} fait  que les procédés de fabrication additive peuvent avoir un impact environnemental réduit en optimisant le ratio de matière du produit fini / matière initial.
+Dans ce contexte, la recyclage de matière première, spécifiquement le recyclage de polymères, est une voie de recherche fondamentale pour explorer de nouvelles méthodes d’eco-conception.
+
+Ce travail de thèse a eu pour but principal de proposer une méthodologie systématique permettant évaluer la fabrication et évaluation de la matière recyclé utilisée dans l’impression 3D.
+Cette méthodologie est basée sur l’identification et la caractérisation des propriétés mécaniques (e.g. résistance à la traction, module d'élasticité) et chimique (e.g viscosité) lors du processus de récyclage.
+La validation de la faisabilité technique en conditions de laboratoire des matière récycles par le procédé d'impression a été fait pour l'acide polylactique (PLA) qui matière qui est la plus utilisé dans ce domaine. 
+L'étude a aussi mettre en évidence la dégradation de la matière pour effet des étapes du procédé nécessaires pour arriver à un objet imprimé.
+
+\subrubric{Participation à projets de recherche}
+\entry*[2016-...] \textbf{Projet Green Fablab} - Recyclage de polymères en circuit court pour la fabrication additive open source : caractérisation des matières, du processus et de l’environnement usager. 
+Valorisation en circuit court de déchets thermoplastiques pour la conception par impression 3D de structures composites. 
+\href{http://lf2l.fr/projects/green-fablab/}{Plus d'information: \underline{http://lf2l.fr/projects/green-fablab/}}
+
+
+
+\subrubric{Projet de Recherche}
+
+\text{
+
+Mes travaux de recherche ont abouti à un cadre conceptuel avec des étapes clé à considérer pour le recyclage pour l'impression 3D.
+Les premiers résultats ont validé certain aspects techniques du point de vue de l'imprimante 3D, et la matière première. Cependant, il reste à valider la démultiplication et operationalisation de ces démarches auprès des acteurs et communautés locaux.
+
+Mon projet de recherche concerne donc la validation holistique de cette type de recyclage non seulement l'aspect technologique, mais aussi l'aspect économique, politique, et social.
+On peut souligner certain aspects tels que:
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+    \item Du point de vue technique, développement d'une ingénierie de la conception et de la fabrication en utilisant l'approche open source/hardware afin de développer des technologies low-cost et fiables pour l'identification, séparation et nettoyages de niches de gisements.
+En plus, analyser chaque étape du processus de recyclage afin de  concevoir de produits et de systèmes qui répondent aux besoins ponctuelles pour valoriser des niches de recyclage qui n'ont pas de valorisation dans le processus traditionnelle de recyclage.
+    \item Du point de vue méthodologique,  développer des démarches d'eco-conception et optimisation de produit en incluant matière recyclé est un axe importante pour créer des synergies et symbiosis dans une échelle meso (e.g. eco-quartier, eco-parcs)
+    
+    \item Concernant la partie globale, l'identification des aspects politiques et sociaux qui peuvent améliorer l'acceptabilité et diffusion de ce type d'innovation.
+
+\end{itemize}
+
+
+Le but à long terme est d'inscrire cette démarche dans l'ambition du plan d'action pour l'économie circulaire de l'Union Européenne  afin de répondre aux enjeux sociaux de déchets des plastiques. 
+
+
+}
+
+
+\end{rubric}
+
+
