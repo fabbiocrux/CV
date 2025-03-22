@@ -20,13 +20,13 @@ format:
     urlcolor: blue
     fig-pos: 'H'
     link-citations: true
-    include-in-header: [packages.tex]
+    include-in-header: [packages.tex]    
     #include-before-body: [titlepage.tex]
-    #keep-tex: true    
-
+    keep-tex: true    
+filters:
+   - latex-environment
+environments: [center, minipage]
 ---
-
-
 
 
 
@@ -38,29 +38,26 @@ format:
 :::col
 
 # Fabio A. CRUZ SANCHEZ
-Né le 06/05/1988 à Bogota, Colombie. Marié, 1 Enfant.  \newline 
-
+Né le 06/05/1988 à Bogota, Colombie.   \includegraphics[width=2ex]{figures/flag-colombia.png} 
+\includegraphics[width=2ex]{figures/flag-france.png} 
+\newline 
 27, Rue du Pont de Pierre, 54270 - Essey-lès-Nancy \newline 
 
-{{< fa phone >}} 07.78.78.38.07 |  {{< fa envelope >}} [fabbiocrux.ms@gmail.com](fabbiocrux.ms@gmail.com) |
+{{< fa phone >}} 07.78.78.38.07 |  {{< fa globe >}} [fabbiocrux.com](https://fabbiocrux.com/) |
 {{< fa github >}} [fabbiocrux](https://github.com/fabbiocrux)
 | \aiGoogleScholar \  \href{https://scholar.google.fr/citations?user=8Cuoaf4AAAAJ&hl=fr}{Google scholar} 
 \newline
 CNU **60**, 62 \newline
 
-*Génie Industriel; Fabrication Additive Open Source; Recyclagé distribué; Soutenabilité*
+*Fabrication Additive; Open Source; Recyclage distribué; Soutenabilité*
 
 :::
-
 ![](fabio-cruz.jpg)
-
 :::
-
-
 
 
 ## Présentation 
-Maître de Conférences stagiaire à l'ENSGSI, rattaché au laboratoire ERPI de l’Université de Lorraine. Ingénieur en mécanique formé à l’Université Nationale de Colombie, je suis titulaire d’un Master II en Management de l’Innovation et du Design Industriel, ainsi que d'un PhD en Génie des Systèmes Industriels de l’Université de Lorraine.
+Maître de Conférences à l'[ENSGSI](https://ensgsi.univ-lorraine.fr/nos-formations/), rattaché au laboratoire [ERPI](https://erpi.univ-lorraine.fr/) de l’Université de Lorraine. Ingénieur en mécanique formé à l’Université Nationale de Colombie, je suis titulaire d’un Master II en Management de l’Innovation et du Design Industriel, ainsi que d'un PhD en Génie des Systèmes Industriels de l’Université de Lorraine.
 Mon domaine de recherche se concentre sur la fabrication additive open source comme levier de développement industriel durable. Plus spécifiquement, j'étudie les nouvelles filières distribuées en circuit court pour la valorisation des matières plastiques recyclées via la fabrication additive.
 J'adopte une approche multi-échelle pour aborder les enjeux technologiques, filières associées et territoriaux, tout en privilégiant les collaborations avec divers acteurs. J’utilise différentes méthodologies pour améliorer, tester et expérimenter de nouveaux usages.
 Je possède une solide expérience dans la conduite de projets de recherche (EU, ANR) et de formation (ERASMUS+).
@@ -73,6 +70,47 @@ J'ai une forte expérience en montage et conduite de projet européens. J'ai l'o
 
 ## Formation
 
+
+<!-- 
+:::{.minipage options="[t]" arguments="0.4\textwidth"}
+
+2013 -- 2016
+
+:::
+\hfill
+:::{.minipage options="[t]" arguments="0.4\textwidth"}
+![](fabio-cruz.jpg)
+:::
+
+
+:::{layout="[15,85]" layout-valign="top"}
+:::{}
+2013 -- 2016
+:::
+
+:::{}
+**Ph.D., Université de Lorraine**, spécialité Génie des systèmes industriels \par
+
+Titre de thèse: *Methodological proposition to evaluate polymer recycling in open-source additive manufacturing contexts* 
+
+Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace{5pt}
+
+**Rapporteurs**:
+
+- *Prof.* Nicolas PERRY --  ENSAM, Bordeaux - France
+- *Dr.* Salim BELOUETTAR -- LIST, Esch-sur-Alzette - Luxembourg
+
+\vspace{5pt}
+**Examinateurs**:
+
+- *Prof.* Joshua M. PEARCE -- MTU, Michigan - USA
+- *Prof.* Nadia BAHLOULI -- Université de Strasbourg, Strasbourg - France
+- *Prof.* Mauricio CAMARGO (*Directeur*) -- UL, ERPI, Nancy - France
+- *MdC.* Hakim BOUDAOUD (co-directeur*) -- UL ERPI, Nancy - France
+- *Dr.* Sandrine HOPPE (co-directeur*)  --  LRGP, Nancy - France
+
+:::
+::: -->
 
 \begin{tabu} to \linewidth {X[0.3,l] X[2,l]}
 
@@ -117,14 +155,19 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 
 \extrarowsep=3pt
 \begin{tabu} to \linewidth {X[0.3,l] X[2,l]}
-2022 -- ... &
-	\textbf{Chercheur contractuel} Université de Lorraine, Université de Lorrain, Nancy -- France \\[5pt]
+
+2024 -- ... &
+	\textbf{Maître de Conférences} \emph{Université de Lorraine}, Nancy -- France \\[5pt]
+
+
+2022 -- 2023 &
+	\textbf{Chercheur contractuel} \emph{Université de Lorraine},  Nancy -- France \\[5pt]
 
 2021 -- 2021 &
-	\textbf{Chercheur contractuel} Université de Technologique de Troyes, Équipe InSyTe (Anciennement CREIDD) Troyes -- France \\[5pt]
+	\textbf{Chercheur contractuel} \emph{Université de Technologique de Troyes}, Équipe InSyTe (Anciennement CREIDD) Troyes -- France \\[5pt]
 
 2017 -- 2021 &
-	\textbf{Post-doctorant} Université de Lorraine, Université de Lorrain, Nancy -- France \\[5pt]
+	\textbf{Post-doctorant} \emph{Université de Lorraine}, Université de Lorrain, Nancy -- France \\[5pt]
 
 2010 -- 2011 & \textbf{International trainee} \href{http://www.mipengenharia.com.br/}{Entreprise MIP Engenharia S/A} \thinspace Belo Horizonte, Brazil \par
 \textit{Projet:} Aide à la création d'un plan stratégique pour le projet d'internationalisation de MIP.  \\
@@ -150,7 +193,7 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 \faIcon{laptop}  & CAO (Solid-Works, Onshape), Matlab,  Data analysis / visualization, R, \textsc{Html, css} \\[5pt]
 	
 
-\faIcon{book}  & Academic research,  Mendeley, \LaTeX ~and Rmarkdown publishing.
+\faIcon{book}  & Academic research,  Zotero, \LaTeX ~and Rmarkdown/Quarto publishing.
 
 \end{tabu}
 
@@ -164,14 +207,16 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 
 ### Articles à comité de lecture dans des revues internationales
 
-1. Suescun Gonzalez, C., **Cruz Sanchez, F.A.**, Boudaoud, H., Nouvel, C., Pearce, J.M., 2024. Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture. Polymer Engineering & Science n/a. https://doi.org/10.1002/pen.26643
+1. Liu, D., Basdeo, A., Gonzalez, C.S., Romani, A., Boudaoud, H., Nouvel, C., **Cruz Sanchez, F.A.**, Pearce, J.M., 2024. Low-Cost Open-Source Melt Flow Index System for Distributed Recycling and Additive Manufacturing. Materials 17, 5966. https://doi.org/10.3390/ma17235966
 
-1. Osorio, F., **Cruz, F.**, Camargo, M., Dupont, L., Peña, J.I., 2024. Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach. Journal of Engineering and Technology Management 71, 101799. https://doi.org/10.1016/j.jengtecman.2024.101799
+1. Suescun Gonzalez, C., **Cruz Sanchez, F.A.**, Boudaoud, H., Nouvel, C., Pearce, J.M., 2024. Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture. Polymer Engineering & Science. [https://doi.org/10.1002/pen.26643](https://doi.org/10.1002/pen.26643)
 
-1. Caceres-Mendoza, C., Santander-Tapia, P., **Cruz Sanchez, F.A.**, Troussier, N., Camargo, M., Boudaoud, H., 2023. Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing. Cleaner Waste Systems 5, 100100. https://doi.org/10.1016/j.clwas.2023.100100
+1. Osorio, F., **Cruz, F.**, Camargo, M., Dupont, L., Peña, J.I., 2024. Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach. Journal of Engineering and Technology Management 71, 101799. [https://doi.org/10.1016/j.jengtecman.2024.101799](https://doi.org/10.1016/j.jengtecman.2024.101799)
+
+1. Caceres-Mendoza, C., Santander-Tapia, P., **Cruz Sanchez, F.A.**, Troussier, N., Camargo, M., Boudaoud, H., 2023. Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing. Cleaner Waste Systems 5, 100100. [https://doi.org/10.1016/j.clwas.2023.100100](https://doi.org/10.1016/j.clwas.2023.100100)
 
 
-1. Xue, F., Boudaoud, H., Robin, G., A. **Cruz Sanchez, F.**, Daya, E.M., 2023. Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization. Mechanics of Advanced Materials and Structures 0, 1–11. https://doi.org/10.1080/15376494.2023.2245827
+1. Xue, F., Boudaoud, H., Robin, G., A. **Cruz Sanchez, F.**, Daya, E.M., 2023. Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization. Mechanics of Advanced Materials and Structures 0, 1–11. [https://doi.org/10.1080/15376494.2023.2245827](https://doi.org/10.1080/15376494.2023.2245827)
 
 
 1. Gabriel, A., **Cruz, F.**, 2023. Open source IoT-based collection bin applied to local plastic recycling. HardwareX 13, e00389. [https://doi.org/10.1016/j.ohx.2022.e00389](https://doi.org/10.1016/j.ohx.2022.e00389)
@@ -212,6 +257,8 @@ Défendu publiquement le 9 Décembre de 2016 à Nancy devant le jury:\par\vspace
 
 
 ### Chapitre d'Ouvrages scientifiques
+
+1. Mendoza, C.C., Tapia, P.S., **Cruz, F**., Troussier, N., Camargo, M., Boudaoud, H., 2024. *Chapitre 5 : Fabrication additive : le recyclage local de plastique*, in: Territoires en transition et innovation: Enjeux et outils d’accompagnement. p. 137.
 
 
 1. **Cruz, F.**, Lanza, S., Boudaoud, H., Hoppe, S., Camargo, M., *"Approche méthodologique pour évaluer la faisabilité du recyclage des polymères dans un contexte de fabrication additive open-source"* (2023). Le recyclage, enjeu pour l’économie circulaire. ISTE Group
